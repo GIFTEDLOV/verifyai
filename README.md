@@ -6,7 +6,7 @@
 
 **Plagiarism detection + AI-writing detection, settled by AI validator consensus on GenLayer**
 
-[Live App](#) · [Demo](#) · [How It Works](#how-it-works)
+[Live App](https://verifyai-app-psi.vercel.app) · [How It Works](#how-it-works)
 
 ![VerifyAI dashboard](./readme-assets/dashboard.jpg)
 

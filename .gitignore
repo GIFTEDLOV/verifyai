@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+
+# Build artifacts
+frontend/build/
+artifacts/
+
+# Environment & secrets — NEVER commit these
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+*.pem
+*.key
+*.p12
+*.pfx
+*_key.json
+*_private.json
+*private_key*
+*privatekey*
+deployer*
+keystore/
+wallet.json
+
+# Vercel
+.vercel/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Test output (ephemeral)
+test_output.txt
+lint_result.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

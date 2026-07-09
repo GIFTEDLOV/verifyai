@@ -1,0 +1,29 @@
+{
+  "name": "VerifyAI",
+  "description": "Trustless content integrity checker — plagiarism detection and AI-writing detection settled by AI validator consensus.",
+  "contract": {
+    "address": "0xB1aBc0020194300a198E05B62571cb3d216BfF26",
+    "source": "contracts/verifyai.py",
+    "language": "python",
+    "dependsHash": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6"
+  },
+  "chain": {
+    "name": "GenLayer Bradbury Testnet",
+    "chainId": 4221,
+    "chainIdHex": "0x107d",
+    "rpcUrl": "https://rpc-bradbury.genlayer.com",
+    "blockExplorerUrl": "https://explorer-bradbury.genlayer.com/",
+    "nativeCurrency": { "name": "GEN Token", "symbol": "GEN", "decimals": 18 }
+  },
+  "deployTx": null,
+  "notes": [
+    "deployTx is null: the contract was deployed via the GenLayer CLI and the deployment transaction hash was not recorded at the time. The contract address is authoritative and verifiable on the block explorer.",
+    "The address above is the single source of truth used by the frontend; it is defined in frontend/src/lib/clients.ts and imported by every call site.",
+    "Explorer page: https://explorer-bradbury.genlayer.com/address/0xB1aBc0020194300a198E05B62571cb3d216BfF26"
+  ],
+  "frontend": {
+    "liveUrl": "https://verifyai-app-psi.vercel.app",
+    "framework": "Next.js",
+    "host": "Vercel"
+  }
+}
